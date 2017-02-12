@@ -1,0 +1,7 @@
+Note that the format  of POSCAR, CONCAR and CHGCAR files in VASP.5.x are slightly different from those in VASP.4.x,
+(1) cd vaspkit.xx/
+(2) modify make.inc file based on your machine environment
+(3) cd src
+(4) Please set 'vasp5=.false.' in the src/module.f90 file if you are using VASP.4.x
+(5) type 'make' in the src directory
+(6) Then you will get vaspkit program

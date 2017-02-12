@@ -1,0 +1,24 @@
+Verions 0.43 (03 Jun. 2015) 
+   * Bugfix in Charge Density Difference.
+
+Verions 0.42 (21 Feb. 2015) 
+   * Rewritten and Bugfix in Extraction of Band Structure Data;
+   * Reformatted DOS data.
+
+Verions 0.41 (17 Dec. 2014) 
+   * Bugfix in Extraction of Spin Density Data.
+
+Verions 0.40 (18 Nov. 2014) 
+   * Added support for runing vaspkit under Command-Line Mode;
+   * Added support for Structure Converting, such as POSCAR/CONTCAR to cif, xsf, atat
+     structral formats;
+   * Added support for Symmetry Toolkit; 
+   * Added support for generating more uniform K-Mesh scheme;
+   * Added support for getting PDOS of f-state; 	
+   * Minor bug fixes and optimisations.
+
+Version 0.31 (10 Oct. 2014) 
+   * Added crystals folder including several hundreds crsytal structures;     
+   * Bugfix in EOS; 
+   * Bugfix in Planar Average Charge Density. 
+
