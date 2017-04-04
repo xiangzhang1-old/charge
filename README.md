@@ -13,3 +13,5 @@ Written Xiang Zhang 02/Aug/2015
 Modified Xiang Zhang 17/Aug/2015: Reformatted options, added splitdos approach due to vaspkit bugs.
 Modified Xiang Zhang 05/23/2016: Reformatted options with module-based charge paradigm.
 
+# Dependency
+pot, split_dos in PATH

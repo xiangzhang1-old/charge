@@ -1,4 +1,4 @@
-generic:orbital_max=9,max_energy=7,nlinetotal=140:
+generic:orbital_max=9,max_energy=7,nlinetotal=140:nspin
 tex::
 notex::
 splitdos::
