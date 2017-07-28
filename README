@@ -1,9 +1,13 @@
+README: I think this is outdated compared to post.
+
+# Justification for 
+
 # Usage
 charge [-tex/-normal] [-vaspkit/-splitdos] [-spin/-nonspin]. Default is -normal -splitdos -spin.
--tex produces .tex tabular output. -vaspkit uses vaspkit to get integrated pdos, while -splitdos uses vtstscripts/split_dos and Python to integrate it.
+-tex produces .tex tabular output. -vaspkit uses vaspkit to get integrated pdos, while -splitdos uses vtstscripts/split\_dos and Python to integrate it.
 
 # Features
-occupancy of s,px,dx2-y2... orbitals (requires: vaspkit || split_dos & numpy ; lm-DOSCAR and POSCAR)
+occupancy of s,px,dx2-y2... orbitals (requires: vaspkit || split\_dos & numpy ; lm-DOSCAR and POSCAR)
 Bader/RWIGS charge (requires: bader ; CHGCAR )
 greps energy
 supports non-spin-polarized (-nonspin) calculation, supports TeX tabular+math output
@@ -14,4 +18,4 @@ Modified Xiang Zhang 17/Aug/2015: Reformatted options, added splitdos approach d
 Modified Xiang Zhang 05/23/2016: Reformatted options with module-based charge paradigm.
 
 # Dependency
-pot, split_dos in PATH
+pot, split\_dos in PATH
